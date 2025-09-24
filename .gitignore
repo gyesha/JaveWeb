@@ -1,0 +1,48 @@
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar        # 默认忽略
+!mvnw
+!mvnw.cmd
+!.mvn/wrapper/maven-wrapper.jar      # 显式放行 wrapper
+
+# ----------- Java -----------
+*.class
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# ----------- IntelliJ IDEA -----------
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ----------- Eclipse -----------
+.settings/
+.project
+.classpath
+.factorypath
+.springBeans
+.sts4-cache
+
+# ----------- VS Code -----------
+.vscode/
+
+# ----------- Mac OS -----------
+.DS_Store
+
+# ----------- Windows -----------
+Thumbs.db
+ehthumbs.db
+*.stackdump
