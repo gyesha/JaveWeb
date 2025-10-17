@@ -28,6 +28,7 @@ public class Servlet4 extends HttpServlet {
         HttpSession session = request.getSession();//true
         out.println(session.getAttribute("message"));
         out.println(session.getAttribute("message2"));
+        out.println(session.getAttribute("message2"));
         out.println(session.getId());
 
     }
